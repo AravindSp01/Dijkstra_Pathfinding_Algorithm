@@ -59,6 +59,6 @@ if __name__ == "__main__":
     }
 
     #Setting random source and destination vertices.
-    source = 'A'
-    destination = 'K'
-    dijsktra(graph,source,destination)
+    sour = input("Enter Source Node: ").upper()
+    dest = input("Enter Destination Node: ").upper()
+    dijsktra(graph,sour,dest)
